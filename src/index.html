@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Clock</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <!-- Functionality for the themes -->
+        <form class="color-picker" action="">
+            <fieldset>
+                <!-- Theme 1 -->
+                <label for="theme1" class="themeWord_Hide">theme1</label>
+                <input type="radio" name="theme" id="theme1" checked>
+
+                <!-- Theme 2 -->
+                <label for="theme2" class="themeWord_Hide">theme2</label>
+                <input type="radio" name="theme" id="theme2" checked>
+                
+                <!-- Theme 3 -->
+                <label for="theme3" class="themeWord_Hide">theme3</label>
+                <input type="radio" name="theme" id="theme3" checked>
+
+                <!-- Theme 4 -->
+                <label for="theme4" class="themeWord_Hide">theme4</label>
+                <input type="radio" name="theme" id="theme4" checked>
+
+                <!-- Theme 5 -->
+                <label for="theme5" class="themeWord_Hide">theme5</label>
+                <input type="radio" name="theme" id="theme5" checked>
+
+            </fieldset>
+        </form>
+
+        <!-- Functionality display for the clock -->
+        <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
+
+        <!-- Display the quote of the day -->
+        <h2><br>Quote of the day</h2>
+
+        <!-- Enter your own quote of the day message here -->
+        <h3></h3>
+
+        <script src="main.js" async defer></script>
+    </body>
+</html>
